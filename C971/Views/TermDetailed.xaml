@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.TermDetailed"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="{Binding Title}"
+             >
+    <ContentPage.BindingContext>
+        <models:Term />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Change Term Name" />
+            <Editor x:Name="TextEditor"
+                Placeholder="Enter new term name"
+                Text="{Binding Title}"
+                HeightRequest="100" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Start Date" />
+            <DatePicker 
+                x:Name="Start"
+                Date="{Binding Start}" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="End Date" />
+
+            <DatePicker 
+            x:Name="End"
+            Date="{Binding End}" />
+        </HorizontalStackLayout>
+        <Button Text="Load Courses" Clicked="LoadCourses_Clicked" />
+        <Button Text="Submit Changes" Clicked="ChangeTerm_Clicked" />
+        <Button Text="Delete" Clicked="Delete_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

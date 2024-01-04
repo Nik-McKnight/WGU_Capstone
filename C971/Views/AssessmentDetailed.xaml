@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.AssessmentDetailed"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="{Binding Title}"
+             >
+    <ContentPage.BindingContext>
+        <models:Assessment />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Change Assessment Name: " />
+            <Editor x:Name="AssessmentEditor"
+            Placeholder="Enter new assessment name"
+            Text="{Binding Title}"
+            HeightRequest="100" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Start Date: " />
+            <DatePicker 
+            x:Name="Start"
+            Date="{Binding Start}" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="End Date: " />
+
+            <DatePicker 
+        x:Name="End"
+        Date="{Binding End}" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Select a category: " />
+
+            <Picker 
+            x:Name="Picker"
+            Title="Pick a Category"
+        >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Objective</x:String>
+                        <x:String>Practical</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label Text="{Binding Source={x:Reference Picker}, Path=SelectedItem}"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Instructor Name: " />
+            <Label x:Name="NameEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Email: " />
+            <Label x:Name="EmailEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Phone: " />
+            <Label x:Name="PhoneEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <Button Text="Submit Changes" Clicked="ChangeAssessment_Clicked" />
+        <Button Text="Set Start Reminder" Clicked="StartNotification_Clicked" />
+        <Button Text="Set End Reminder" Clicked="EndNotification_Clicked" />
+        <Button Text="Delete" Clicked="Delete_Clicked" />
+    </VerticalStackLayout>
+
+</ContentPage>

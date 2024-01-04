@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.CourseDetailedStudent"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="{Binding Title}"
+             >
+    <ContentPage.BindingContext>
+        <models:Course />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Course Name: " />
+            <Label x:Name="CourseEditor"
+                Text="{Binding Title}"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Start Date: "  
+                HeightRequest="50" />
+            <Label 
+            x:Name="Start"  
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="End Date: "  
+                HeightRequest="50" />
+
+            <Label 
+            x:Name="End"  
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Name: " />
+            <Label x:Name="NameEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Email: " />
+            <Label x:Name="EmailEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Phone: " />
+            <Label x:Name="PhoneEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <Button x:Name="Assessments" Text="Load Assessments" Clicked="LoadAssessments_Clicked" />
+        <Button x:Name="Notes" Text="Load Notes" Clicked="LoadNotes_Clicked" />
+        <Button x:Name="StartButton" Text="Set Start Reminder" Clicked="StartNotification_Clicked" />
+        <Button x:Name="EndButton" Text="Set End Reminder" Clicked="EndNotification_Clicked" />
+        <Button x:Name="Add" Text="Add Course" Clicked="AddCourse_Clicked" IsEnabled="false" IsVisible="false"/>
+        <Button x:Name="Drop" Text="Drop Course" Clicked="DropCourse_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

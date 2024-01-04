@@ -1,0 +1,13 @@
+﻿
+Step 0: Register new account. It will automatically register as a student account. You may then add terms, courses, etc.
+
+Step 1: Log in with correct username and password. You may enter "1" as the username and password to test an existing user.
+
+Step 2: Log in with username "a" and password "a" to test admin functionality. Use "i" for the username and password to test instructor functionality.
+
+
+User Privileges by type:
+
+	Student: Edit own profile, view/add/edit/delete terms and notes, add/drop courses, view assessments.
+	Instructor: Edit own profile, view/add/edit/delete assessments, view students in a course.
+	Admin: View/add/edit/delete any user's profile, view/add/edit/delete courses, view assessments, generate a report detailing the number of students in each course.

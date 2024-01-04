@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.TermList"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="Your Terms"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="Add_Clicked" IconImageSource="{FontImage Glyph='+', Color=White, Size=22}" />
+        <ToolbarItem Text="Profile" Clicked="Profile_Clicked" IconImageSource="..\Resources\Images\profile.jpg" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.BindingContext>
+        <models:TermList />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <CollectionView x:Name="termsCollection"
+                            ItemsSource="{Binding Terms}"
+                            Margin="20"
+                            SelectionMode="Single"
+                            SelectionChanged="termsCollection_SelectionChanged"
+                            HeightRequest="700"
+                            >
+
+            <!-- Designate how the collection of items are laid out -->
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+
+            <!-- Define the appearance of each item in the list -->
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding Title}" FontSize="22"/>
+                        <Label Text="{Binding DateString}" FontSize="14" TextColor="Silver"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <!--<Button Text="Notification" Clicked="Notification_Clicked" />-->
+    </VerticalStackLayout>
+</ContentPage>

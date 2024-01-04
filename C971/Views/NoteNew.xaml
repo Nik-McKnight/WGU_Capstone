@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.NoteNew"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="{Binding Text}"
+             >
+    <ContentPage.BindingContext>
+        <models:Note />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Note Text" />
+            <Editor x:Name="NoteEditor"
+            Placeholder="Edit Note"
+            Text="{Binding Text}"
+            HeightRequest="100" />
+        </HorizontalStackLayout>
+
+        <Button Text="Save New Note" Clicked="ChangeNote_Clicked" />
+        <Button Text="Cancel" Clicked="Delete_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

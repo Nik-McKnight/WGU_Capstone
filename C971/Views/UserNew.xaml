@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.UserNew"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="Register New User"
+             >
+    <ContentPage.BindingContext>
+        <models:User />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Username" FontSize="14"/>
+            <Editor x:Name="UsernameEditor"
+            Placeholder="Enter Username"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Password" FontSize="14"/>
+            <Editor x:Name="PasswordEditor"
+            Placeholder="Enter Password"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Confirm Password" FontSize="14"/>
+            <Editor x:Name="ConfirmEditor"
+            Placeholder="Confirm Password"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Email" FontSize="14"/>
+            <Editor x:Name="EmailEditor"
+            Placeholder="Enter Email"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Phone Number" FontSize="14"/>
+            <Editor x:Name="PhoneEditor"
+            Placeholder="Enter Phone"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="First Name" FontSize="14"/>
+            <Editor x:Name="FirstEditor"
+            Placeholder="Enter First Name"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Last Name" FontSize="14"/>
+            <Editor x:Name="LastEditor"
+            Placeholder="Enter Last Name"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+        <Button Text="Submit" Clicked="Submit_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

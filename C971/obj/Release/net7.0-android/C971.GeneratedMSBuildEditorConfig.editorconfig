@@ -1,0 +1,171 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = C971
+build_property.ProjectDir = C:\Users\troja\source\repos\WGU_Capstone\C971\
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/Admin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.Admin.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Admin.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Admin.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/AdminReport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.AdminReport.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdminReport.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdminReport.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/AssessmentDetailed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.AssessmentDetailed.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AssessmentDetailed.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AssessmentDetailed.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/AssessmentDetailedStudent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.AssessmentDetailedStudent.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AssessmentDetailedStudent.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AssessmentDetailedStudent.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/AssessmentList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.AssessmentList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AssessmentList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AssessmentList.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/AssessmentNew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.AssessmentNew.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AssessmentNew.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AssessmentNew.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/CourseDetailed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.CourseDetailed.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CourseDetailed.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CourseDetailed.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/CourseDetailedStudent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.CourseDetailedStudent.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CourseDetailedStudent.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CourseDetailedStudent.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/CourseList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.CourseList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CourseList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CourseList.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/CourseNew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.CourseNew.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CourseNew.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CourseNew.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/Note.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.Note.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Note.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Note.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/NoteList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.NoteList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NoteList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NoteList.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/NoteNew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.NoteNew.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NoteNew.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NoteNew.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/TermDetailed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.TermDetailed.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TermDetailed.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TermDetailed.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/TermList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.TermList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TermList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TermList.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/TermNew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.TermNew.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TermNew.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TermNew.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/User.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.User.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\User.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\User.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/UserAddCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.UserAddCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserAddCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserAddCourse.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/UserList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.UserList.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserList.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserList.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/UserNew.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.UserNew.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserNew.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserNew.xaml
+
+[C:/Users/troja/source/repos/WGU_Capstone/C971/Views/UserNoEdits.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = C971.Views.UserNoEdits.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserNoEdits.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserNoEdits.xaml

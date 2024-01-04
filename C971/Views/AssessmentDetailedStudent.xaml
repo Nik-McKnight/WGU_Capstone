@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C971.Views.AssessmentDetailedStudent"
+             xmlns:models="clr-namespace:C971.Models"
+             Title="{Binding Title}"
+             >
+    <ContentPage.BindingContext>
+        <models:Assessment />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Assessment Name: " />
+            <Label x:Name="AssessmentEditor"
+            Text="{Binding Title}"
+            HeightRequest="50" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Start Date: "  
+                HeightRequest="50" />
+            <Label 
+            x:Name="Start"  
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="End Date: "  
+                HeightRequest="50" />
+
+            <Label 
+            x:Name="End"  
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Category: "  
+                HeightRequest="50" />
+
+            <Label 
+            x:Name="Category"  
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="Instructor Name: "  
+                HeightRequest="50" />
+            <Label x:Name="NameEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Email: " />
+            <Label x:Name="EmailEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label Text="Instructor Phone: " />
+            <Label x:Name="PhoneEditor"
+                HeightRequest="50" />
+        </HorizontalStackLayout>
+        <Button Text="Set Start Reminder" Clicked="StartNotification_Clicked" />
+        <Button Text="Set End Reminder" Clicked="EndNotification_Clicked" />
+    </VerticalStackLayout>
+
+</ContentPage>

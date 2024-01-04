@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="C971.Models.Assessment">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgEAAAAAAAAAAACAAAAAAAAAAAAACCAA=</HashCode>
+      <FileName>Models\Assessment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.AssessmentList">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAQEAAAAAAAAAAAAAAAAAAAIAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\AssessmentList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.Course">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQgEAAAAAAEAAAQCAAAAAAgAQAEAAAAAA=</HashCode>
+      <FileName>Models\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.CourseList">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAACAAAAAAAIAAAAABAAAAA=</HashCode>
+      <FileName>Models\CourseList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.CourseUser">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\CourseUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.Dates">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.Note">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAACAAA=</HashCode>
+      <FileName>Models\Note.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.NoteList">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAkAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\NoteList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.Term">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Term.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.TermCourse">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TermCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.TermList">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Models\TermList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.User">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAEgAAAAQAAAAAACAAAAAACAAAAIAAAAIg=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Models.UserList">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\UserList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Data.C971Database">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIwGBAAAAMAUEAGMBMgQAJE0GYADIgAAEQAHIACBAIE=</HashCode>
+      <FileName>Data\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.Admin">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAQAEAAAAAAAQA=</HashCode>
+      <FileName>Views\Admin.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.AdminReport">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABA=</HashCode>
+      <FileName>Views\AdminReport.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.AssessmentDetailed">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQEAAAAAAoAAABAAAAAAAAAAgBQQIAIAAAAA=</HashCode>
+      <FileName>Views\AssessmentDetailed.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.AssessmentDetailedStudent">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEAAAAAAoAAABAAAAAAAAAAgAQQAAAAAAAA=</HashCode>
+      <FileName>Views\AssessmentDetailedStudent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.AssessmentList">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEgAAAIAAAAAAAAAAAAAAAAAAAAAAAAABQA=</HashCode>
+      <FileName>Views\AssessmentList.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.AssessmentNew">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAgAAAAAAAAAAAAAIgBAQIAIAABAA=</HashCode>
+      <FileName>Views\AssessmentNew.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.CourseDetailed">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAFAAAAAACIAAAEAAQAEAAAAgAAQAAIAABAA=</HashCode>
+      <FileName>Views\CourseDetailed.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.CourseDetailedStudent">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAHAAAAAECIAABAAAQAAAAgAgAQQAIACABAA=</HashCode>
+      <FileName>Views\CourseDetailedStudent.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.CourseList">
+    <Position X="20.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAECAAAAAAAAAAQAgAAAEAAAAAAAQA=</HashCode>
+      <FileName>Views\CourseList.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.CourseNew">
+    <Position X="22.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEAAAAAAgAAAAAAAQAAAAAAAAAQAAIAgAAA=</HashCode>
+      <FileName>Views\CourseNew.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.Login">
+    <Position X="15.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Login.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.Note">
+    <Position X="17.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAAEAAAAAAgAAAAAAAACAAAAAAAEABAIAAAAA=</HashCode>
+      <FileName>Views\Note.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.NoteList">
+    <Position X="19" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAABQA=</HashCode>
+      <FileName>Views\NoteList.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.NoteNew">
+    <Position X="20.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAoAABAA=</HashCode>
+      <FileName>Views\NoteNew.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.TermDetailed">
+    <Position X="22.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAgAAAEAAAAAAQAgAAAAAAQIAAAAA=</HashCode>
+      <FileName>Views\TermDetailed.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.TermList">
+    <Position X="15.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEgAAAAACAAAAAAAAAAAAAAKAEAAAAAAAQA=</HashCode>
+      <FileName>Views\TermList.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.TermNew">
+    <Position X="17.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAiAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Views\TermNew.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.User">
+    <Position X="19" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAoAAAQA=</HashCode>
+      <FileName>Views\User.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.UserAddCourse">
+    <Position X="20.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAGAAAAAACAAAAAAAAAAAAgAAAAAAAgAAAAA=</HashCode>
+      <FileName>Views\UserAddCourse.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.UserList">
+    <Position X="22.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAEAAAAAAAAAAAAAAAAAAACgAAAAAAAAABQA=</HashCode>
+      <FileName>Views\UserList.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.UserNew">
+    <Position X="12" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Views\UserNew.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C971.Views.UserNoEdits">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Views\UserNoEdits.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
