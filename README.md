@@ -4,9 +4,11 @@ This is my capstone project for my B.S. in Software Engineering from Western Gov
 
 It is an Android app to be used for managing classes at a university.
 
-The project was built using C# and SQLite.
+The project was built using C#, .NET MAUI, and SQLite.
 
 The repository has been copied from GitLab. There is a screenshot of the commit history.
+
+The app has different functionality for students, instructors, and administrators.
 
 ## Getting started
 
